@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 1730px 450px;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.fylo-card {
+    width: 360px;
+    height: 210px;
+    border-top-right-radius: 100px 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 270px;
+    margin-left: 350px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 40px;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.accessory-container {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.document-container {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    padding-left: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+}
+
+
+.document-container .document {
+    width: 20px;
+}
+
+.folder-container {
+    width: 50px;
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 12px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+}
+
+.folder-container .folder {
+    width: 26px;
+}
+
+.upload-container {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 11px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+}
+
+.upload-container .upload {
+    width: 27px;
+}
+
+.storage-card {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 40px;
+    margin-top: 330px;
+    margin-left: 30px;
+    width: 500px;
+    height: 150px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 8px;
+}
+
+.para {
+    color: hsl(243, 100%, 93%);
+    font-size: 14px;
+}
+
+.para span {
+    color: white;
+}
+
+.chat {
+    width: 160px;
+    height: 70px;
+    background-color: white;
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+    margin-top: -100px;
+    margin-left: 275px;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 10px;
+}
+
+.chat span {
+    color: hsl(229, 57%, 11%);
+    font-size: 40px;
+}
+
+.storage {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 10px;
+    margin-top: 80px;
+}
